@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.info {
+    width: 446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-font1, .title-font2, .title-font3 {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+}
+.title-font1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title-font2 {
+    color: #10B981;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title-font3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+.interactive-fields {
+    width:446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#generate-button {
+    width: 190px;
+    height: 42px;
+    background-color: #10B981;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: 0px;
+    text-shadow: 0px 0px 1px #D5D4D8;
+    margin-bottom: 35px;
+    transition-duration: 0.4s;
+    font-family: "Karla", sans-serif;
+}
+
+#generation-field {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    color: #D5D4D8;
+    margin-bottom: 35px;
+}
+
+#noNumbers, #copyPassword {
+    width: 200px;
+    height: 40px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 6px;
+    text-shadow: 0px 0px 1px #D5D4D8;
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 0.4s;
+}
+#noNumbers {
+    margin-right: 24px;
+}
+
+#generate-button:hover, #noNumbers:hover, #copyPassword:hover {
+opacity: 80%;
+transition-duration: 0.4s;
+}
+
+#generate-button:active, #noNumbers:active, #copyPassword:active {
+    opacity: 60%;
+    transition-duration: 0.1s;
+}
+
